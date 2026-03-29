@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sayooj V K - Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#eefaf1;
+color:#333;
+}
+
+header{
+background:#0f9d58;
+color:white;
+padding:20px 0;
+position:sticky;
+top:0;
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+nav h1{
+font-size:28px;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav ul li a:hover{
+color:#ffe066;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:linear-gradient(to right,#0f9d58,#34d399);
+color:white;
+}
+
+.hero h2{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:white;
+color:#0f9d58;
+text-decoration:none;
+font-weight:bold;
+border-radius:5px;
+}
+
+section{
+padding:60px 20px;
+}
+
+section h2{
+text-align:center;
+margin-bottom:30px;
+color:#0f9d58;
+}
+
+.about p{
+max-width:800px;
+margin:auto;
+text-align:center;
+font-size:18px;
+}
+
+.skills, .projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.contact{
+text-align:center;
+}
+
+.contact a, .contact p{
+display:block;
+margin:10px;
+color:#0f9d58;
+text-decoration:none;
+font-weight:bold;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+
+<nav>
+<h1>My Portfolio</h1>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#certificates">Certificates</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+</div>
+</header>
+
+<section class="hero">
+
+<h2>Hello, I'm Sayooj V K</h2>
+
+<p>
+B.Tech Computer Science student passionate about programming,
+web development and learning new technologies.
+</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+</section>
+
+<section id="about" class="about">
+
+<div class="container">
+
+<h2>About Me</h2>
+
+<p>
+I am currently pursuing B.Tech in Computer Science and Engineering.
+I enjoy learning programming, solving logical problems and building
+projects that improve my technical skills.
+</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<div class="container">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="card">
+<h3>HTML</h3>
+<p>Creating structured webpages.</p>
+</div>
+
+<div class="card">
+<h3>CSS</h3>
+<p>Designing responsive websites.</p>
+</div>
+
+<div class="card">
+<h3>C Programming</h3>
+<p>Developing basic programs and algorithms.</p>
+</div>
+
+<div class="card">
+<h3>Problem Solving</h3>
+<p>Logical and analytical thinking.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<div class="container">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Personal Portfolio Website</h3>
+<p>
+Designed and developed a responsive personal portfolio
+using HTML and CSS to showcase skills, projects and achievements.
+</p>
+</div>
+
+<div class="card">
+<h3>Fire Extinguisher (Physics Project)</h3>
+<p>
+Studied the working principle of a fire extinguisher and how carbon dioxide
+helps in extinguishing fire by removing oxygen.
+</p>
+</div>
+
+<div class="card">
+<h3>Preparation of Stain Remover Solution</h3>
+<p>
+Chemistry project creating a simple stain remover using
+hydrogen peroxide and lemon solution for cleaning fabrics.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="certificates">
+
+<div class="container">
+
+<h2>Certificates</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>NASSCOM Digital 101</h3>
+<p>
+Completed NASSCOM Digital 101 certification program
+with 30 hours of training in digital and technology fundamentals.
+</p>
+</div>
+
+<div class="card">
+<h3>Infosys Springboard – Programming Fundamentals Using Python</h3>
+<p>
+Completed course on programming fundamentals including
+Python basics, logic building and problem solving.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<div class="container">
+
+<h2>Contact</h2>
+
+<p>📞 Phone: 7560839678</p>
+
+<a href="mailto:vksayoojkvr@gmail.com">
+📧 Email: vksayoojkvr@gmail.com
+</a>
+
+<a href="https://www.linkedin.com/in/sayooj-v-k-79110237a" target="_blank">
+🔗 LinkedIn Profile
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Sayooj V K | Portfolio</p>
+
+</footer>
+
+</body>
+</html>
